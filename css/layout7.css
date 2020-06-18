@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    float: left;
+    width: 17%;
+}
+
+main {
+    float: left;
+    width: 83%;
+    padding: 0;
+    margin: 0;
+}
+
+.div01::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.icon>ul {
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+    vertical-align: middle;
+}
+
+.icon li {
+    float: left;
+    display: block;
+    width: 33.33%;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.icon li:last-child {
+    float: right;
+}
+
+.icon li>a {
+    font-size: 25px;
+    color: white;
+    padding-left: 38%;
+}
+
+.icon li:hover, .icon li a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+
+.sidebar {
+    width: 100%;
+}
+
+.sidebar img {
+    height: 27px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.sidebar li:first-child {
+    border-bottom: 1px solid lightgray;
+    padding: 5px 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    margin: 0;
+    color: black;
+}
+
+.sidebar li:hover {
+    background-color: lightgray;
+}
+
+main>.mainbox {
+    width: 100%;
+    background-color: #12947f;
+    padding: 80px 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.mainbox>h1 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+}
+
+main>.box {
+    background-color: rgb(238, 237, 237);
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #12947f;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+main .code {
+    background-color: white;
+    margin: 0 auto;
+    height: 270px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.in {
+    margin-left: 25px;
+}
+
+.code>.greenbox {
+    width: 0.5%;
+    height: 270px;
+    background-color: green;
+    margin-left: 0;
+    float: left;
+    margin-right: 13px;
+}
+
+.code::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.cd > p {
+    padding: 15px 0;
+}
+
+
+footer {
+    background-color: rgb(238, 237, 237);
+    width: 100%;
+    padding: 40px 0;
+}
+
+footer>.foot {
+    text-align: center;
+}
